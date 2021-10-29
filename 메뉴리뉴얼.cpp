@@ -57,9 +57,3 @@ vector<string> solution(vector<string> orders, vector<int> course) {
     sort(answer.begin(), answer.end());
     return answer;
 }
-int main() {
-    solution({ "XYZ", "XWY", "WXA" }, { 2,3,4 });
-}
-
-//두명 이상 손님으로부터 주문도니 단품메뉴 조합에 대해서만 코스요리 메뉴 후보에 포함
-//각 손님은 단품메뉴2개이상 주문해야함. 단품메뉴는 A~Z
